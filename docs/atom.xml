@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title type="text">Aiar</title>
+    <subtitle type="html">MemE is a powerful and highly customizable GoHugo theme for personal blogs.</subtitle>
+    <updated>2021-05-09T22:24:11&#43;08:00</updated>
+    <id>https://aiar.site/</id>
+    <link rel="alternate" type="text/html" href="https://aiar.site/" />
+    <link rel="self" type="application/atom&#43;xml" href="https://aiar.site/atom.xml" />
+    <author>
+            <name>Aiar</name>
+            <uri>https://aiar.site/</uri>
+            
+                <email>arrackisarookie@gmail.com</email>
+            </author>
+    <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights>
+    <generator uri="https://gohugo.io/" version="0.82.1">Hugo</generator>
+        <entry>
+            <title type="text">Kettle里踩过的坑</title>
+            <link rel="alternate" type="text/html" href="https://aiar.site/posts/kettle%E9%87%8C%E8%B8%A9%E8%BF%87%E7%9A%84%E5%9D%91/" />
+            <id>https://aiar.site/posts/kettle%E9%87%8C%E8%B8%A9%E8%BF%87%E7%9A%84%E5%9D%91/</id>
+            <updated>2021-04-28T11:34:38&#43;08:00</updated>
+            <published>2021-04-28T11:32:48&#43;08:00</published>
+            <author>
+                    <name>Aiar</name>
+                    <uri>https://aiar.site/</uri>
+                    <email>arrackisarookie@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">Kettle里踩过的坑 连接数据库使用的是 sid 创建Oracle的DB连接时，kettle使用的是 sid(实例名instance_name) 来建立连接，sid默认和数据库名一致，但有可能更改，所以当使用数据库名连接不同时，可以使用一个高权限的用户登录目标数据库，输入下面语句以查询。
+1  select instance_name from V$instance;   环境变量的引号问题 kettle中的环境变量比较坑，等号后面的环境变量不会自动给自己加引号，但是函数括号里的环境变量会给自己加引号，比如下面这段不会报错
+1 2 3  SELECT TO_DATE(${DQSJC},&amp;#39;YYYYMMDDHH24MISS&amp;#39;) AS RUNNINGTIME FROM SJJR_TAB_TRAN_INFO WHERE TRAN_ID = &amp;#39;${TRANID}&amp;#39; AND JOB_ID = &amp;#39;${JOBID}&amp;#39;;   而去掉where后的那些引号，就会报错；或者给括号里的变量加上引号后，将不被识别为环境变量(大概是这样，可能需要测试的同事反复实验确认)。
+所以建议给等号后面的环境变量加上引号，括号里的就别加了。当然数字的也就看情况了。
+设置变量长度很重要 设置变量时尽量给出长度类型，也去掉左右空格，不然 js 或其他脚本里面拼接变量时会前后有空格啥的</summary>
+            
+                <content type="html">&lt;h2 id=&#34;kettle里踩过的坑&#34;&gt;Kettle里踩过的坑&lt;/h2&gt;
+&lt;h3 id=&#34;连接数据库使用的是-sid&#34;&gt;连接数据库使用的是 sid&lt;/h3&gt;
+&lt;p&gt;创建Oracle的DB连接时，kettle使用的是 sid(实例名instance_name) 来建立连接，sid默认和数据库名一致，但有可能更改，所以当使用数据库名连接不同时，可以使用一个高权限的用户登录目标数据库，输入下面语句以查询。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sql&#34; data-lang=&#34;sql&#34;&gt;&lt;span class=&#34;k&#34;&gt;select&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;instance_name&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;from&lt;/span&gt;  &lt;span class=&#34;n&#34;&gt;V$instance&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;环境变量的引号问题&#34;&gt;环境变量的引号问题&lt;/h3&gt;
+&lt;p&gt;kettle中的环境变量比较坑，等号后面的环境变量不会自动给自己加引号，但是函数括号里的环境变量会给自己加引号，比如下面这段不会报错&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sql&#34; data-lang=&#34;sql&#34;&gt;&lt;span class=&#34;k&#34;&gt;SELECT&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;TO_DATE&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;DQSJC&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;YYYYMMDDHH24MISS&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;AS&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;RUNNINGTIME&lt;/span&gt;
+&lt;span class=&#34;k&#34;&gt;FROM&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;SJJR_TAB_TRAN_INFO&lt;/span&gt;
+&lt;span class=&#34;k&#34;&gt;WHERE&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;TRAN_ID&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;${TRANID}&amp;#39;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;AND&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;JOB_ID&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;${JOBID}&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;而去掉where后的那些引号，就会报错；或者给括号里的变量加上引号后，将不被识别为环境变量(大概是这样，可能需要测试的同事反复实验确认)。&lt;/p&gt;
+&lt;p&gt;所以建议给等号后面的环境变量加上引号，括号里的就别加了。当然数字的也就看情况了。&lt;/p&gt;
+&lt;h3 id=&#34;设置变量长度很重要&#34;&gt;设置变量长度很重要&lt;/h3&gt;
+&lt;p&gt;设置变量时尽量给出长度类型，也去掉左右空格，不然 js 或其他脚本里面拼接变量时会前后有空格啥的&lt;/p&gt;
+&lt;h3 id=&#34;资源库文件夹&#34;&gt;资源库文件夹&lt;/h3&gt;
+&lt;p&gt;资源库可以添加文件夹，本地跑时只需要修改执行的当前目录等环境变量即可。&lt;/p&gt;
+&lt;p&gt;但是，如果要发布到远程服务器跑，那即使配置了环境变量，远程服务器也找不到位置。&lt;/p&gt;
+&lt;h3 id=&#34;kettle-83-无法使用表导入&#34;&gt;kettle 8.3 无法使用表导入&lt;/h3&gt;
+&lt;h3 id=&#34;kettle-92-无法多个客户端同时打开资源库&#34;&gt;kettle 9.2 无法多个客户端同时打开资源库&lt;/h3&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                
+                    
+                
+            
+        </entry>
+    
+</feed>
