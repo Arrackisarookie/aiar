@@ -3,8 +3,8 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">Aiar</title>
-    <subtitle type="html">MemE is a powerful and highly customizable GoHugo theme for personal blogs.</subtitle>
-    <updated>2021-05-25T22:58:37&#43;08:00</updated>
+    <subtitle type="html">Aiar&#39;s bolg</subtitle>
+    <updated>2021-05-26T11:22:17&#43;08:00</updated>
     <id>https://aiar.site/</id>
     <link rel="alternate" type="text/html" href="https://aiar.site/" />
     <link rel="self" type="application/atom&#43;xml" href="https://aiar.site/atom.xml" />
@@ -27,9 +27,7 @@
                     <uri>https://aiar.site/</uri>
                     <email>arrackisarookie@gmail.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">什么是PEP PEP是 Python Enhancement Proposal Python 增强提案的缩写。每篇 PEP 都是一份设计文档，它可能为 Python 社区提供了一些信息，也可能描述了 Python 或其过程和环境的某项新功能特性。如果是功能特性描述，那么 PEP 文档应该提供出一份该特性的简明技术规范及其的基本原理。
-我们希望 PEPs 能够成为一种基本制度：可以通过它提出一些重大的新特性，可以通过它收集社区中针对某个问题各种意见，还可以通过它记录一些 Python 中的设计决策。而 PEP 的作者也有责任在社区中建立共识，同时也记录下不同的意见。
-PEPs 会以文本文件的形式维护在版本仓库中，所以它们的版本历史也是该功能特性提案的历史记录。</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">什么是PEP PEP是 Python Enhancement Proposal Python 增强提案的缩写。每篇 PEP 都是一份设计文档，它可能为 Python 社区提…</summary>
             
                 <content type="html">&lt;h2 id=&#34;什么是pep&#34;&gt;什么是PEP&lt;/h2&gt;
 &lt;p&gt;PEP是 &lt;code&gt;Python Enhancement Proposal&lt;/code&gt; Python 增强提案的缩写。每篇 PEP 都是一份设计文档，它可能为 Python 社区提供了一些信息，也可能描述了 Python 或其过程和环境的某项新功能特性。如果是功能特性描述，那么 PEP 文档应该提供出一份该特性的简明技术规范及其的基本原理。&lt;/p&gt;
@@ -80,25 +78,7 @@ PEPs 会以文本文件的形式维护在版本仓库中，所以它们的版本
                     <uri>https://aiar.site/</uri>
                     <email>arrackisarookie@gmail.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">Chapter 1. 为什么写这本书 我曾经在一家非常有代表性的公司上班，时不时和一群非常有代表性的人在一起，开那么一次非常有代表性的会议。我掌管着公司的Web应用服务器。工作职责包括维护软硬件、推行最佳实践，说服人们不断做技术升级。我一直都忙着想办法让人们升级。
-事实上，会议的主题就是升级。
-“我想让你们给我一个从 ColdFusion 6 迁移到 ColdFusion 8 的时间表。”我说。这已经是类似会议上第五次给他们下最后通牒了。
-不出所料，有人叹了口气说：“我们不能迁移到新服务器。每次把应用迁移到新服务器都会遇到麻烦和不兼容的问题。我们就是不想再给用户添麻烦了。”
-我还击道：“这个问题很正常。你们想过在切换版本的过程中，使用单元测试来验证新版本的优势么？并不是只有应用服务器存在这个问题，Web服务器、数据库服务器，还有你们的基础代码都存在这个问题。版本升级是谁也逃避不了的。你们可以使用单元测试嘛。”
-然后，各种借口都涌过来了，“升级会占用太多时间。”，“为什么这件事非做不可呢？”，“我们不知道怎么做单元测试。”
-我可以告诉你，我是在跟他们辩论。我还可以把辩论的情形描述得更详细一些。但那有有什么用呢？结果是明摆着的，我没有把他们争取过来，我始终无法说服他们。
-在从事那项工作的时间里，我得想方设法地说服人们在某方面加以改进或采取某种新技术。刚才描述的争论场面以及类似的场景，我经历了很多很多次了。我输掉了大部分争论，也赢了一些，有些争论到最后终于两败俱伤。不过，我倒是总结出了一些模式：
- 同一类人所持观点相同； 有些人始终都乐于接受新事物； 另一些人则在别人转变之后才肯改进； 有些人你永远也说服不了； 某些观点对有些人有用对另一些人没用； 有时候让管理层插手是让人们服从的唯一方法。  总结出以上模式之后，我又据以做了很多笔记，明白了某些策略只对部分人有用，永远不能一概而论。然后，我基于不同问题针对同一批怀疑者采取了相同的战术。成功率节节攀升，说服人们有所改进变得简单了。
-本书的主要内容就是这些改进、模式，以及争论。但愿我的经验能成为读者的前车之鉴，让大家能够避免漫无目的的争吵，减少挫折感，真正推动组织的技术进步。
-1.1 本书组织方式 这是一本讲模式的书。换句话说，本书将围绕一系列重复的形式，也就是模式展开。本书两个主要部分各自包含一组模式，其中一部分模式适用于怀疑者，着重分析某些人抵制的原因。另一部分主要谈方法论，包含一套可以用来反击怀疑者的方法和技巧。如此一来，本书这两部分中各章的结构自然也就极为明晰了。
-除了讨论你的同事以及如何对付他们的有关模式的着两部分之外，本书最后一部分将把焦点从模式转移到策略。策略能排序出先要说服谁，不要招惹谁，以及如何真正推动技术进步。
-1.2 为什么要看这本书 本书的目标是使你能够说服自己的同事采用新工具和新技术。为了达到这个目的，你不必像一个政客一样在办公室里玩阴谋诡计。当然，我可不是说不需要讲策略，只不过用不着那么邪恶罢了。
-这本书要牵扯到一大批人物，其中一些人会让你觉得似曾相识——哎，这不就是那谁嘛！好，只要你能让现实当中的某个人与书中的人物对号入座，就可以在本书中找到对付他们的方法。对那些怀疑者使用这些方法应该讲究策略，这些本书都会向你一一道来。然后，变化就会魔法般地发生了。
-好吧，哪能靠什么魔法啊！你还得靠自己的工作和努力。只不过现在你的目标明确了。看完这本书，相信你一定会有相见恨晚的感觉。而只要你依照本书的策略行事，随着经验的增长，更多的好处还在后面呢。
-1.3 本书目标读者 本书的目标读者是搞技术的人，比如开发人员或者程序员。具体来说，可以是服务器管理员、网络工程师或硬件工程师，抑或数据库管理员，甚至是与技术人员协同工作的设计师。
-至于你到底是搞什么技术，其实并不重要。只要你掌握某种技术，需要与人沟通，这本书都适合你看。
-本书要讲的故事和描述的情景主要涉及开发人员。非常抱歉，我本人就是一名开发人员。但实际上，无论你使用什么工具、什么语言，都没问题。说到底，不管你是.Net程序员、搞Java开发的，还是开源的拥趸，或者对某家公司的技术情有独钟，都不影响你看这本书。这本书要讲的就是怎么让你的同事改变他们的工作方式，至于改变成哪种方式，那是你自己的事。
-Chapter 2.</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">Chapter 1. 为什么写这本书 我曾经在一家非常有代表性的公司上班，时不时和一群非常有代表性的人在…</summary>
             
                 <content type="html">&lt;h1 id=&#34;chapter-1-为什么写这本书&#34;&gt;Chapter 1. 为什么写这本书&lt;/h1&gt;
 &lt;p&gt;我曾经在一家非常有代表性的公司上班，时不时和一群非常有代表性的人在一起，开那么一次非常有代表性的会议。我掌管着公司的Web应用服务器。工作职责包括维护软硬件、推行最佳实践，说服人们不断做技术升级。我一直都忙着想办法让人们升级。&lt;/p&gt;
@@ -189,10 +169,7 @@ Chapter 2.</summary>
                     <uri>https://aiar.site/</uri>
                     <email>arrackisarookie@gmail.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">每次洗完澡是否都有这样的疑惑，明明一直被水包围，为啥还会口渴，水不能透过皮肤进入人体么。。
-先回答第一个问题，为啥会口渴呢？是因为洗澡的时候水温基本上都是高于体温，外界温度高会促进人体血液循环，毛孔增大加速散热，出汗也会增多(没错，洗澡的时候还会出汗)。如此一来体内水分流失也会比较多，所以就会感到口渴了。游泳期间口渴也是差不多的道理，身体一直在运动出汗导致水分的流失。
-然后第二个问题，水不能透过皮肤么？虽然洗澡的时候周围都是水，但是由于人体皮肤最外层有非常多层的角质化细胞，这种细胞已经死亡，它们没法像正常活细胞一样在低浓度溶液中吸水膨胀，再加上皮肤的其他屏障的阻挡，故而外界的水很难通过皮肤进入人体。其实也幸亏皮肤的屏障作用比较强，要不然一下雨，人就会胖一圈hhhh~
-所以呢，长时间的泡澡或者游泳一定要注意补充水分哦。</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">每次洗完澡是否都有这样的疑惑，明明一直被水包围，为啥还会口渴，水不能透过皮肤进入人体…</summary>
             
                 <content type="html">&lt;p&gt;每次洗完澡是否都有这样的疑惑，明明一直被水包围，为啥还会口渴，水不能透过皮肤进入人体么。。&lt;/p&gt;
 &lt;p&gt;先回答第一个问题，为啥会口渴呢？是因为洗澡的时候水温基本上都是高于体温，外界温度高会促进人体血液循环，毛孔增大加速散热，出汗也会增多(没错，洗澡的时候还会出汗)。如此一来体内水分流失也会比较多，所以就会感到口渴了。游泳期间口渴也是差不多的道理，身体一直在运动出汗导致水分的流失。&lt;/p&gt;
@@ -237,11 +214,7 @@ Chapter 2.</summary>
                     <uri>https://aiar.site/</uri>
                     <email>arrackisarookie@gmail.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">Kettle里踩过的坑 连接数据库使用的是 sid 创建Oracle的DB连接时，kettle使用的是 sid(实例名instance_name) 来建立连接，sid默认和数据库名一致，但有可能更改，所以当使用数据库名连接不同时，可以使用一个高权限的用户登录目标数据库，输入下面语句以查询。
-1  select instance_name from V$instance;   环境变量的引号问题 kettle中的环境变量比较坑，等号后面的环境变量不会自动给自己加引号，但是函数括号里的环境变量会给自己加引号，比如下面这段不会报错
-1 2 3  SELECT TO_DATE(${DQSJC},&amp;#39;YYYYMMDDHH24MISS&amp;#39;) AS RUNNINGTIME FROM SJJR_TAB_TRAN_INFO WHERE TRAN_ID = &amp;#39;${TRANID}&amp;#39; AND JOB_ID = &amp;#39;${JOBID}&amp;#39;;   而去掉where后的那些引号，就会报错；或者给括号里的变量加上引号后，将不被识别为环境变量(大概是这样，可能需要测试的同事反复实验确认)。
-所以建议给等号后面的环境变量加上引号，括号里的就别加了。当然数字的也就看情况了。
-设置变量长度很重要 设置变量时尽量给出长度类型，也去掉左右空格，不然 js 或其他脚本里面拼接变量时会前后有空格啥的</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">Kettle里踩过的坑 连接数据库使用的是 sid 创建Oracle的DB连接时，kettle…</summary>
             
                 <content type="html">&lt;h2 id=&#34;kettle里踩过的坑&#34;&gt;Kettle里踩过的坑&lt;/h2&gt;
 &lt;h3 id=&#34;连接数据库使用的是-sid&#34;&gt;连接数据库使用的是 sid&lt;/h3&gt;
