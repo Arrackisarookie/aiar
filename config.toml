@@ -198,12 +198,12 @@ uglyURLs = false
         weight = 2
         pre = "internal"
         post = ""
-    [[menu.main]]
-        url = "/categories/"
-        name = "Cates"
-        weight = 3
-        pre = "internal"
-        post = ""
+    # [[menu.main]]
+    #     url = "/categories/"
+    #     name = "Cates"
+    #     weight = 3
+    #     pre = "internal"
+    #     post = ""
     [[menu.main]]
         url = "/tags/"
         name = "Tags"
@@ -211,13 +211,19 @@ uglyURLs = false
         pre = "internal"
         post = ""
     [[menu.main]]
-        url = "/about/"
-        name = "About"
+        url = "/books/"
+        name = "Books"
         weight = 5
         pre = "internal"
         post = ""
     [[menu.main]]
+        url = "/about/"
+        name = "About"
         weight = 6
+        pre = "internal"
+        post = ""
+    [[menu.main]]
+        weight = 7
         identifier = "theme-switcher"
     # [[menu.main]]
     #     weight = 7
@@ -513,7 +519,7 @@ uglyURLs = false
 
     enableDarkMode = true
 
-    defaultTheme = "dark"
+    defaultTheme = "light"
     # Note: light or dark
 
     hideThemeToggle = false
@@ -832,14 +838,14 @@ uglyURLs = false
     #       `toc` in post’s Front Matter
     #       has a higher priority than here
 
-    displayTOCTitle = false
+    displayTOCTitle = true
 
     displayTOCNum = false
     # Note: *global settings*
     #       `tocNum` in post’s Front Matter
     #       has a higher priority than here
 
-    linkHeadingsToTOC = false
+    linkHeadingsToTOC = true
 
 
     ######################################
@@ -1175,7 +1181,7 @@ uglyURLs = false
     ######################################
     # Post Tags
 
-    enablePostTags = false
+    enablePostTags = true
 
     postTagsIcon = "tag"
 
@@ -1250,7 +1256,7 @@ uglyURLs = false
     iconAnimation = true
 
     # Display links to Hugo and MemE?
-    displayPoweredBy = false
+    displayPoweredBy = true
 
     displaySiteCopyright = true
 

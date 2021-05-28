@@ -1,11 +1,13 @@
 ---
-title: "PEP1 PEP 的目的和指导方针"
+title: "[译] PEP1 - PEP Purpose And Guideline"
 date: 2021-05-25T22:16:19+08:00
 draft: false
+categories:
+    - 技术
 tags:
     - PEP
     - Python
-    - tech
+    - Translation
 ---
 
 ## 什么是PEP

@@ -1,7 +1,12 @@
 ---
-title: "Kettle里踩过的坑"
+title: "Pentaho-Kettle里踩过的坑"
 date: 2021-04-28T11:32:48+08:00
 draft: false
+categories:
+    - 技术
+tags:
+    - ETL
+    - Kettle
 ---
 ## Kettle里踩过的坑
 

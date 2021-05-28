@@ -2,42 +2,61 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://aiar.site/</loc>
-    <lastmod>2021-05-25T22:58:31+08:00</lastmod>
-  </url><url>
-    <loc>https://aiar.site/tags/pep/</loc>
-    <lastmod>2021-05-25T22:57:50+08:00</lastmod>
-  </url><url>
     <loc>https://aiar.site/posts/pep1-pep-purpose-and-guideline/</loc>
-    <lastmod>2021-05-25T22:57:50+08:00</lastmod>
+    <lastmod>2021-05-28T16:10:17+08:00</lastmod>
   </url><url>
-    <loc>https://aiar.site/posts/</loc>
-    <lastmod>2021-05-25T22:58:31+08:00</lastmod>
-  </url><url>
-    <loc>https://aiar.site/tags/python/</loc>
-    <lastmod>2021-05-25T22:57:50+08:00</lastmod>
-  </url><url>
-    <loc>https://aiar.site/tags/</loc>
-    <lastmod>2021-05-25T22:58:31+08:00</lastmod>
-  </url><url>
-    <loc>https://aiar.site/tags/tech/</loc>
-    <lastmod>2021-05-25T22:58:18+08:00</lastmod>
-  </url><url>
-    <loc>https://aiar.site/tags/book/</loc>
-    <lastmod>2021-05-25T22:58:18+08:00</lastmod>
-  </url><url>
-    <loc>https://aiar.site/posts/driving-technical-change/</loc>
-    <lastmod>2021-05-25T22:58:18+08:00</lastmod>
-  </url><url>
-    <loc>https://aiar.site/tags/life/</loc>
-    <lastmod>2021-05-25T22:58:31+08:00</lastmod>
-  </url><url>
-    <loc>https://aiar.site/posts/why-do-we-get-so-thirsty-after-showering/</loc>
-    <lastmod>2021-05-25T22:58:31+08:00</lastmod>
-  </url><url>
-    <loc>https://aiar.site/posts/traps-in-pentaho-kettle/</loc>
-    <lastmod>2021-04-28T11:34:38+08:00</lastmod>
+    <loc>https://aiar.site/</loc>
+    <lastmod>2021-05-28T17:31:59+08:00</lastmod>
   </url><url>
     <loc>https://aiar.site/categories/</loc>
+    <lastmod>2021-05-28T17:31:59+08:00</lastmod>
+  </url><url>
+    <loc>https://aiar.site/tags/pep/</loc>
+    <lastmod>2021-05-28T16:10:17+08:00</lastmod>
+  </url><url>
+    <loc>https://aiar.site/posts/</loc>
+    <lastmod>2021-05-28T16:13:02+08:00</lastmod>
+  </url><url>
+    <loc>https://aiar.site/tags/python/</loc>
+    <lastmod>2021-05-28T16:10:17+08:00</lastmod>
+  </url><url>
+    <loc>https://aiar.site/tags/</loc>
+    <lastmod>2021-05-28T17:31:59+08:00</lastmod>
+  </url><url>
+    <loc>https://aiar.site/tags/translation/</loc>
+    <lastmod>2021-05-28T16:10:17+08:00</lastmod>
+  </url><url>
+    <loc>https://aiar.site/categories/%E6%8A%80%E6%9C%AF/</loc>
+    <lastmod>2021-05-28T17:31:59+08:00</lastmod>
+  </url><url>
+    <loc>https://aiar.site/books/driving-technical-change/</loc>
+    <lastmod>2021-05-28T17:31:59+08:00</lastmod>
+  </url><url>
+    <loc>https://aiar.site/tags/book/</loc>
+    <lastmod>2021-05-28T17:31:59+08:00</lastmod>
+  </url><url>
+    <loc>https://aiar.site/books/</loc>
+    <lastmod>2021-05-28T17:31:59+08:00</lastmod>
+  </url><url>
+    <loc>https://aiar.site/tags/tips/</loc>
+    <lastmod>2021-05-28T16:13:02+08:00</lastmod>
+  </url><url>
+    <loc>https://aiar.site/posts/why-do-we-get-so-thirsty-after-showering/</loc>
+    <lastmod>2021-05-28T16:13:02+08:00</lastmod>
+  </url><url>
+    <loc>https://aiar.site/categories/%E6%B4%BB%E7%9D%80/</loc>
+    <lastmod>2021-05-28T16:13:02+08:00</lastmod>
+  </url><url>
+    <loc>https://aiar.site/tags/etl/</loc>
+    <lastmod>2021-05-28T16:11:33+08:00</lastmod>
+  </url><url>
+    <loc>https://aiar.site/tags/kettle/</loc>
+    <lastmod>2021-05-28T16:11:33+08:00</lastmod>
+  </url><url>
+    <loc>https://aiar.site/posts/traps-in-pentaho-kettle/</loc>
+    <lastmod>2021-05-28T16:11:33+08:00</lastmod>
+  </url><url>
+    <loc>https://aiar.site/about/</loc>
+    <priority>0</priority>
   </url>
 </urlset>

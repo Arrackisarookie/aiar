@@ -6,7 +6,8 @@ tags:
     - WSL
     - Hogo
     - Linux
-    - Tech
+categories:
+    - 技术
 ---
 
 > 选择从来没有对错之分，我们能做的就是不断的证明这个选择没那么烂。
