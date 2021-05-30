@@ -24,3 +24,12 @@ blockquote::before {
     left: 15px;
     top: -10px;
 }
+blockquote::after {
+    font-family: Arial;
+    content: "\201D";
+    color: #78c0a8;
+    font-size: 4em;
+    position: absolute;
+    right: 15px;
+    bottom: -45px;
+}
