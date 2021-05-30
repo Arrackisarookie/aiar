@@ -1,13 +1,14 @@
 ---
 title: "PEP 翻译计划"
 date: 2021-05-26T08:37:36+08:00
-draft: true
+draft: false
 categories:
-    - 技术
+    - Tech
 tags:
     - plan
     - PEP
     - Python
+    - Translation
 ---
 
 > 原文标题：Python PEP—Python增强提案  

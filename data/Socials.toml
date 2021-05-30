@@ -14,21 +14,21 @@
 
 [[socials]]
     id = "email"
-    url = "mailto:arrackisarookie@gmail.com"
+    url = "mailto:siteofaiar@gmail.com"
     icon = "envelope"
     title = "Email"
     weight = 2
 
 [[socials]]
     id = "github"
-    url = "https://github.com/arrackisarookie"
+    url = "https://github.com/Arrackisarookie"
     icon = "github"
     title = "GitHub"
     weight = 3
 
 [[socials]]
     id = "twitter"
-    url = "https://twitter.com/nicearrack"
+    url = "https://twitter.com/aiarsite"
     icon = "twitter"
     title = "Twitter"
     weight = 4

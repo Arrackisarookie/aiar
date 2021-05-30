@@ -3,10 +3,10 @@ title: "[书] 布道之道"
 date: 2021-05-22T20:26:21+08:00
 draft: false
 toc: true
+categories:
+    - Tech
 tags:
     - book
-categories:
-    - 技术
 ---
 
 # Chapter 1. 为什么写这本书

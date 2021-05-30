@@ -2,12 +2,12 @@
 title: "在WSL里搭建Hugo"
 date: 2021-04-28T14:17:29+08:00
 draft: true
+categories:
+    - Tech
 tags:
     - WSL
     - Hogo
     - Linux
-categories:
-    - 技术
 ---
 
 > 选择从来没有对错之分，我们能做的就是不断的证明这个选择没那么烂。

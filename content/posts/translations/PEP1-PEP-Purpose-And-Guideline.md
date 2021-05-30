@@ -3,7 +3,7 @@ title: "[译] PEP1 - PEP Purpose And Guideline"
 date: 2021-05-25T22:16:19+08:00
 draft: false
 categories:
-    - 技术
+    - Tech
 tags:
     - PEP
     - Python

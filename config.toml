@@ -97,7 +97,7 @@ uglyURLs = false
     # Name
     name = "Aiar"
     # Email
-    email = "arrackisarookie@gmail.com"
+    email = "siteofaiar@gmail.com"
     # Motto or introduction
     motto = "这世界既不黑也不白，而是一道精致的灰"
     # Avatar
@@ -105,7 +105,7 @@ uglyURLs = false
     # Personal website, default: baseURL
     website = "https://aiar.site/"
     # Twitter
-    # twitter = "nicearrack"
+    twitter = "aiarsite"
 
 # Related content
 [related]
@@ -208,12 +208,6 @@ uglyURLs = false
         url = "/tags/"
         name = "Tags"
         weight = 4
-        pre = "internal"
-        post = ""
-    [[menu.main]]
-        url = "/books/"
-        name = "Books"
-        weight = 5
         pre = "internal"
         post = ""
     [[menu.main]]
@@ -483,7 +477,7 @@ uglyURLs = false
     #       name of the folder under the
     #       site’s `content` directory.
 
-    # mainSections = ["posts"]
+    mainSections = ["posts"]
 
 
     ######################################
