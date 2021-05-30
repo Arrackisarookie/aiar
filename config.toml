@@ -1250,9 +1250,9 @@ uglyURLs = false
     iconAnimation = true
 
     # Display links to Hugo and MemE?
-    displayPoweredBy = true
+    displayPoweredBy = false
 
-    displaySiteCopyright = true
+    displaySiteCopyright = false
 
     # Custom Footer (Markdown supported)
     customFooter = ""
