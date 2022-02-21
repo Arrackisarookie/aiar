@@ -3,66 +3,87 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://aiar.site/</loc>
-    <lastmod>2021-05-30T19:49:56+08:00</lastmod>
+    <lastmod>2022-02-21T17:29:04+08:00</lastmod>
+  </url><url>
+    <loc>https://aiar.site/tags/arch/</loc>
+    <lastmod>2022-02-21T17:29:04+08:00</lastmod>
+  </url><url>
+    <loc>https://aiar.site/posts/how-to-fix-arch-gnome-touchpad/</loc>
+    <lastmod>2022-02-21T17:29:04+08:00</lastmod>
   </url><url>
     <loc>https://aiar.site/categories/</loc>
-    <lastmod>2021-05-30T19:49:56+08:00</lastmod>
+    <lastmod>2022-02-21T17:29:04+08:00</lastmod>
   </url><url>
-    <loc>https://aiar.site/tags/pep/</loc>
-    <lastmod>2021-05-30T19:49:56+08:00</lastmod>
+    <loc>https://aiar.site/tags/gnome/</loc>
+    <lastmod>2022-02-21T17:29:04+08:00</lastmod>
   </url><url>
-    <loc>https://aiar.site/posts/translations/pep-translation-plan/</loc>
-    <lastmod>2021-05-30T08:04:59+08:00</lastmod>
-  </url><url>
-    <loc>https://aiar.site/tags/plan/</loc>
-    <lastmod>2021-05-30T08:04:59+08:00</lastmod>
+    <loc>https://aiar.site/tags/linux/</loc>
+    <lastmod>2022-02-21T17:29:04+08:00</lastmod>
   </url><url>
     <loc>https://aiar.site/posts/</loc>
-    <lastmod>2021-05-30T19:49:56+08:00</lastmod>
-  </url><url>
-    <loc>https://aiar.site/tags/python/</loc>
-    <lastmod>2021-05-30T19:49:56+08:00</lastmod>
+    <lastmod>2022-02-21T17:29:04+08:00</lastmod>
   </url><url>
     <loc>https://aiar.site/tags/</loc>
-    <lastmod>2021-05-30T19:49:56+08:00</lastmod>
+    <lastmod>2022-02-21T17:29:04+08:00</lastmod>
   </url><url>
     <loc>https://aiar.site/categories/tech/</loc>
-    <lastmod>2021-05-30T19:49:56+08:00</lastmod>
+    <lastmod>2022-02-21T17:29:04+08:00</lastmod>
+  </url><url>
+    <loc>https://aiar.site/tags/pep/</loc>
+    <lastmod>2022-02-21T17:08:44+08:00</lastmod>
+  </url><url>
+    <loc>https://aiar.site/posts/translations/pep-translation-plan/</loc>
+    <lastmod>2022-02-21T17:08:44+08:00</lastmod>
+  </url><url>
+    <loc>https://aiar.site/tags/plan/</loc>
+    <lastmod>2022-02-21T17:08:44+08:00</lastmod>
+  </url><url>
+    <loc>https://aiar.site/tags/python/</loc>
+    <lastmod>2022-02-21T17:08:44+08:00</lastmod>
   </url><url>
     <loc>https://aiar.site/tags/translation/</loc>
-    <lastmod>2021-05-30T19:49:56+08:00</lastmod>
+    <lastmod>2022-02-21T17:08:44+08:00</lastmod>
   </url><url>
     <loc>https://aiar.site/posts/translations/pep1-pep-purpose-and-guideline/</loc>
-    <lastmod>2021-05-30T08:02:14+08:00</lastmod>
+    <lastmod>2022-02-21T17:08:44+08:00</lastmod>
   </url><url>
     <loc>https://aiar.site/posts/books/driving-technical-change/</loc>
-    <lastmod>2021-05-30T08:05:42+08:00</lastmod>
+    <lastmod>2022-02-21T17:08:44+08:00</lastmod>
   </url><url>
     <loc>https://aiar.site/tags/book/</loc>
-    <lastmod>2021-05-30T08:05:42+08:00</lastmod>
+    <lastmod>2022-02-21T17:08:44+08:00</lastmod>
   </url><url>
     <loc>https://aiar.site/posts/translations/pep289-generator-expressions/</loc>
-    <lastmod>2021-05-30T19:49:56+08:00</lastmod>
+    <lastmod>2022-02-21T17:08:44+08:00</lastmod>
   </url><url>
     <loc>https://aiar.site/about/</loc>
-    <lastmod>2021-05-30T15:29:46+08:00</lastmod>
+    <lastmod>2022-02-21T17:08:44+08:00</lastmod>
   </url><url>
     <loc>https://aiar.site/categories/alive/</loc>
-    <lastmod>2021-05-30T08:05:54+08:00</lastmod>
+    <lastmod>2022-02-21T17:08:44+08:00</lastmod>
   </url><url>
     <loc>https://aiar.site/tags/tips/</loc>
-    <lastmod>2021-05-30T08:05:54+08:00</lastmod>
+    <lastmod>2022-02-21T17:08:44+08:00</lastmod>
   </url><url>
     <loc>https://aiar.site/posts/why-do-we-get-so-thirsty-after-showering/</loc>
-    <lastmod>2021-05-30T08:05:54+08:00</lastmod>
+    <lastmod>2022-02-21T17:08:44+08:00</lastmod>
+  </url><url>
+    <loc>https://aiar.site/tags/hogo/</loc>
+    <lastmod>2022-02-21T17:08:44+08:00</lastmod>
+  </url><url>
+    <loc>https://aiar.site/tags/wsl/</loc>
+    <lastmod>2022-02-21T17:08:44+08:00</lastmod>
+  </url><url>
+    <loc>https://aiar.site/posts/hugo-development-environment-in-wsl/</loc>
+    <lastmod>2022-02-21T17:08:44+08:00</lastmod>
   </url><url>
     <loc>https://aiar.site/tags/etl/</loc>
-    <lastmod>2021-05-30T08:01:31+08:00</lastmod>
+    <lastmod>2022-02-21T17:08:44+08:00</lastmod>
   </url><url>
     <loc>https://aiar.site/tags/kettle/</loc>
-    <lastmod>2021-05-30T08:01:31+08:00</lastmod>
+    <lastmod>2022-02-21T17:08:44+08:00</lastmod>
   </url><url>
     <loc>https://aiar.site/posts/traps-in-pentaho-kettle/</loc>
-    <lastmod>2021-05-30T08:01:31+08:00</lastmod>
+    <lastmod>2022-02-21T17:08:44+08:00</lastmod>
   </url>
 </urlset>
