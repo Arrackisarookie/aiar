@@ -3,7 +3,7 @@
     <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#">
     <meta charset="UTF-8" />
 
-    <meta name="generator" content="Hugo 0.92.2" /><meta name="theme-color" content="#fff" />
+    <meta name="generator" content="Hugo 0.100.2" /><meta name="theme-color" content="#fff" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
     <meta name="format-detection" content="telephone=no, date=no, address=no, email=no" />
@@ -18,7 +18,7 @@
 
     
     
-        <script src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js" defer></script><script src="/js/meme.min.3f8aaa2f0496a61d87f2e9eccc85e3186736919bf883d9a510f9f09e0e0835f8.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js" defer></script><script src="/js/meme.min.753053c8ab8e9aea74583553d9589293003a7a0c09bfeb0c1d31349c9faaa17d.js"></script>
 
     
 
@@ -253,8 +253,8 @@ Python之禅，在Python终端导入this模块查看：</p>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">this</span>
-</code></pre></td></tr></table></div>
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">this</span>
+</span></span></code></pre></td></tr></table></div>
 </div>
 </div><pre tabindex="0"><code>The Zen of Python, by Tim Peters
 
@@ -265,18 +265,18 @@ Complex is better than complicated.
 Flat is better than nested.
 Sparse is better than dense.
 Readability counts.
-Special cases aren't special enough to break the rules.
+Special cases aren&#39;t special enough to break the rules.
 Although practicality beats purity.
 Errors should never pass silently.
 Unless explicitly silenced.
 In the face of ambiguity, refuse the temptation to guess.
 There should be one-- and preferably only one --obvious way to do it.
-Although that way may not be obvious at first unless you're Dutch.
+Although that way may not be obvious at first unless you&#39;re Dutch.
 Now is better than never.
 Although never is often better than *right* now.
-If the implementation is hard to explain, it's a bad idea.
+If the implementation is hard to explain, it&#39;s a bad idea.
 If the implementation is easy to explain, it may be a good idea.
-Namespaces are one honking great idea -- let's do more of those!
+Namespaces are one honking great idea -- let&#39;s do more of those!
 </code></pre><h2 id="pep-202---列表"><a href="#pep-202---列表" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a>PEP 202 - 列表</h2>
 <p>PEP 202 – List Comprehensions
 列表生成式</p>
@@ -325,15 +325,15 @@ Python3.6新提出的字符串插值方法：</p>
 </span><span class="lnt">8
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">&gt;&gt;&gt; import datetime
-&gt;&gt;&gt; <span class="nv">name</span> <span class="o">=</span> <span class="s1">&#39;Fred&#39;</span>
-&gt;&gt;&gt; <span class="nv">age</span> <span class="o">=</span> <span class="m">50</span>
-&gt;&gt;&gt; <span class="nv">anniversary</span> <span class="o">=</span> datetime.date<span class="o">(</span>1991, 10, 12<span class="o">)</span>
-&gt;&gt;&gt; f<span class="s1">&#39;My name is {name}, my age next year is {age+1}, my anniversary is {anniversary:%A, %B %d, %Y}.&#39;</span>
-<span class="s1">&#39;My name is Fred, my age next year is 51, my anniversary is Saturday, October 12, 1991.&#39;</span>
-&gt;&gt;&gt; f<span class="s1">&#39;He said his name is {name!r}.&#39;</span>
-<span class="s2">&#34;He said his name is &#39;Fred&#39;.&#34;</span>
-</code></pre></td></tr></table></div>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">&gt;&gt;&gt; import datetime
+</span></span><span class="line"><span class="cl">&gt;&gt;&gt; <span class="nv">name</span> <span class="o">=</span> <span class="s1">&#39;Fred&#39;</span>
+</span></span><span class="line"><span class="cl">&gt;&gt;&gt; <span class="nv">age</span> <span class="o">=</span> <span class="m">50</span>
+</span></span><span class="line"><span class="cl">&gt;&gt;&gt; <span class="nv">anniversary</span> <span class="o">=</span> datetime.date<span class="o">(</span>1991, 10, 12<span class="o">)</span>
+</span></span><span class="line"><span class="cl">&gt;&gt;&gt; f<span class="s1">&#39;My name is {name}, my age next year is {age+1}, my anniversary is {anniversary:%A, %B %d, %Y}.&#39;</span>
+</span></span><span class="line"><span class="cl"><span class="s1">&#39;My name is Fred, my age next year is 51, my anniversary is Saturday, October 12, 1991.&#39;</span>
+</span></span><span class="line"><span class="cl">&gt;&gt;&gt; f<span class="s1">&#39;He said his name is {name!r}.&#39;</span>
+</span></span><span class="line"><span class="cl"><span class="s2">&#34;He said his name is &#39;Fred&#39;.&#34;</span>
+</span></span></code></pre></td></tr></table></div>
 </div>
 </div><h2 id="pep-3101---字符串格式化"><a href="#pep-3101---字符串格式化" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a>PEP 3101 - 字符串格式化</h2>
 <p>PEP 3101 – Advanced String Formatting

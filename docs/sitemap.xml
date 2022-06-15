@@ -3,7 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://aiar.site/</loc>
-    <lastmod>2022-02-21T17:29:04+08:00</lastmod>
+    <lastmod>2022-06-15T16:53:04+08:00</lastmod>
+  </url><url>
+    <loc>https://aiar.site/tags/bigdata/</loc>
+    <lastmod>2022-06-15T16:53:04+08:00</lastmod>
+  </url><url>
+    <loc>https://aiar.site/categories/</loc>
+    <lastmod>2022-06-15T16:53:04+08:00</lastmod>
+  </url><url>
+    <loc>https://aiar.site/tags/hadoop/</loc>
+    <lastmod>2022-06-15T16:53:04+08:00</lastmod>
+  </url><url>
+    <loc>https://aiar.site/posts/hadoop-ecosystem/</loc>
+    <lastmod>2022-06-15T16:53:04+08:00</lastmod>
+  </url><url>
+    <loc>https://aiar.site/posts/</loc>
+    <lastmod>2022-06-15T16:53:04+08:00</lastmod>
+  </url><url>
+    <loc>https://aiar.site/tags/</loc>
+    <lastmod>2022-06-15T16:53:04+08:00</lastmod>
+  </url><url>
+    <loc>https://aiar.site/categories/tech/</loc>
+    <lastmod>2022-06-15T16:53:04+08:00</lastmod>
   </url><url>
     <loc>https://aiar.site/tags/arch/</loc>
     <lastmod>2022-02-21T17:29:04+08:00</lastmod>
@@ -11,22 +32,10 @@
     <loc>https://aiar.site/posts/how-to-fix-arch-gnome-touchpad/</loc>
     <lastmod>2022-02-21T17:29:04+08:00</lastmod>
   </url><url>
-    <loc>https://aiar.site/categories/</loc>
-    <lastmod>2022-02-21T17:29:04+08:00</lastmod>
-  </url><url>
     <loc>https://aiar.site/tags/gnome/</loc>
     <lastmod>2022-02-21T17:29:04+08:00</lastmod>
   </url><url>
     <loc>https://aiar.site/tags/linux/</loc>
-    <lastmod>2022-02-21T17:29:04+08:00</lastmod>
-  </url><url>
-    <loc>https://aiar.site/posts/</loc>
-    <lastmod>2022-02-21T17:29:04+08:00</lastmod>
-  </url><url>
-    <loc>https://aiar.site/tags/</loc>
-    <lastmod>2022-02-21T17:29:04+08:00</lastmod>
-  </url><url>
-    <loc>https://aiar.site/categories/tech/</loc>
     <lastmod>2022-02-21T17:29:04+08:00</lastmod>
   </url><url>
     <loc>https://aiar.site/tags/pep/</loc>
